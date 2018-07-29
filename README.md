@@ -44,7 +44,7 @@ public class SmsController {
         // 设置签名
         smsRequest.setSignName("身份验证");
         // 设置模版code
-        smsRequest.setTemplateCode("SMS_94405044");
+        smsRequest.setTemplateCode("SMS_111");
         //待发送手机号 多个号码用，分开
         smsRequest.setSendNumbers("15195812211,15195812212");
         // 模板中的变量替换JSON串
